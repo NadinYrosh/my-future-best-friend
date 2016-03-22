@@ -1,6 +1,8 @@
 body {
   font-family: helvetica;
   text-align: center;
+  background-color: #999;
+  color: #fff;
 }
 
 .container {
@@ -21,4 +23,30 @@ ul {
 
 p {
   margin: 20px auto;
+}
+
+
+.light-background {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-background {
+  background-color: #000;
+  color: #fff;
+}
+
+.pgph {
+  background-color: yellow;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.pgph2 {
+  background-color: #fff;
+  color: blue;
+}
+
+.btn {
+  margin: 20px;
 }
